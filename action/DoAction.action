@@ -1,5 +1,5 @@
 #goal definition
-ros2_msgs_template/StringList str_list
+auto_shepherd_msgs/StringList str_list
 ---
 #result definition
 bool success

@@ -1,4 +1,4 @@
-# ros2_msgs_template
+# auto_shepherd_msgs
 1. create repo from template
 2. git clone the new repo
 3. cd into the bash folder
