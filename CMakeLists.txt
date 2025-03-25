@@ -41,7 +41,7 @@ set(msg_files
 
 # Declare the custom service files
 set(srv_files
-  "srv/DoService.srv"
+#  "srv/DoService.srv"
 )
 
 
@@ -49,7 +49,7 @@ set(srv_files
 #Generate actions in the 'action' folder
 # Declare the custom service files
 set(action_files
-    "action/DoAction.action"
+#    "action/DoAction.action"
 )
 
 

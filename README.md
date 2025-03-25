@@ -1,7 +1,4 @@
 # auto_shepherd_msgs
-1. create repo from template
-2. git clone the new repo
-3. cd into the bash folder
-4. run `. rename_package.sh $repo_name`
+This package defines the message formats for the communication across the autonomous shpherding system.
 
-commit changes for initial commit
+Some of the messages defined here are identical to those defined in the standard messages and geometry_msgs packaged. Such messages are included here for completeness.

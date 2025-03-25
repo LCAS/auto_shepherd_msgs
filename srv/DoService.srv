@@ -1,6 +1,0 @@
-#goal definition
-auto_shepherd_msgs/StringList str_list
----
-#response definition
-bool success
-string message

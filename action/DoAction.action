@@ -1,9 +1,0 @@
-#goal definition
-auto_shepherd_msgs/StringList str_list
----
-#result definition
-bool success
----
-#feedback
-string feedback_value
-uint8 status
