@@ -1,0 +1,6 @@
+#goal definition
+ros2_msgs_template/StringList str_list
+---
+#response definition
+bool success
+string message

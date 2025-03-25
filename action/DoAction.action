@@ -1,0 +1,9 @@
+#goal definition
+ros2_msgs_template/StringList str_list
+---
+#result definition
+bool success
+---
+#feedback
+string feedback_value
+uint8 status

@@ -1,0 +1,2 @@
+#msg definition
+string[] content
