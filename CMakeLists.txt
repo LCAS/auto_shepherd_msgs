@@ -35,8 +35,9 @@ set(msg_deps
 
 # Declare the custom message files
 set(msg_files
-  "msg/DetectedAudio.msg"
+  "msg/PitchTrack.msg"
   "msg/SpectralPeak.msg"
+  "msg/PitchCode.msg"
 )
 
 
