@@ -17,12 +17,16 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
 find_package(actionlib_msgs REQUIRED)
 set(msg_deps
   builtin_interfaces
   std_msgs
   geometry_msgs
   actionlib_msgs
+  sensor_msgs
+  vision_msgs
 )
 
 
@@ -35,6 +39,9 @@ set(msg_deps
 
 # Declare the custom message files
 set(msg_files
+  "msg/AudioChunk.msg"
+  "msg/Spectrogram.msg"
+  "msg/SpectrogramClassification.msg"
   "msg/PitchTrack.msg"
   "msg/SpectralPeak.msg"
   "msg/PitchCode.msg"
